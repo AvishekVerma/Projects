@@ -1,0 +1,15 @@
+package com.avishek.dao;
+
+public class InsertApp {
+
+	public static void main(String[] args) {
+		
+		1. Load and register the Driver
+		Class.forName("com.mysql.cj.jdbc.Driver");
+	
+		System.out.println("Driver loaded Successfully...");
+		
+
+	}
+
+}

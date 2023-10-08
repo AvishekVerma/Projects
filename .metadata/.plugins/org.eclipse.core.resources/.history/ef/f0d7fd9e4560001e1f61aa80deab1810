@@ -1,0 +1,26 @@
+package com.avishek.dao;
+
+public class SelectApp {
+
+	public static void main(String[] args) {
+		
+//		1. Load and register the Driver
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		System.out.println("Driver loaded Successfully...");
+		
+//		2. Estalisht the connection with dataBase
+		
+		
+//		3. Create statement and execte the query
+		
+		
+//		4. Process the resultSet
+		
+		
+//		5. Handle the SQL exceptions
+		
+		
+//		6. Close the connection.
+	}
+
+}

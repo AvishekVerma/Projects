@@ -1,0 +1,12 @@
+package com.avishek.PreparedStatement;
+
+public class PreparedStatSelectApp {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		
+//		1. Load and Register the Driver
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		System.out.println("Driver Loaded Successfully...");
+	}
+
+}
